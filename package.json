@@ -1,0 +1,15 @@
+{
+  "name": "pastel-dusk-syntax",
+  "theme": "syntax",
+  "version": "0.1.0",
+  "description": "Theme inspired by the Tomorrow Night 80s theme",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/atom/pastel-dusk-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
