@@ -63,7 +63,7 @@ atom-text-editor .search-results .marker.current-result .region,
 }
 
 .comment {
-  color: @gray;
+  color: @medium-gray;
 }
 
 .keyword {
@@ -87,7 +87,7 @@ atom-text-editor .search-results .marker.current-result .region,
 
   &.other.phpdoc {
       color: @gray;
-      font-weight: bold;
+      font-weight: normal;
   }
 }
 
@@ -151,7 +151,7 @@ atom-text-editor .search-results .marker.current-result .region,
 .punctuation {
   &.definition {
     &.comment {
-      color: @gray;
+      color: @medium-gray;
     }
 
     &.variable
@@ -221,7 +221,7 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.name.type.class {
-      font-weight: bold;
+      font-weight: normal;
       color: @yellow;
   }
 
@@ -323,7 +323,8 @@ atom-text-editor[mini] .scroll-view,
 }
 
 .punctuation.tag.xml,
-.entity.name.tag.xml {
+.entity.name.tag.xml,
+.entity.name.tag.yaml {
     color: @purple;
     text-decoration: none;
 }
